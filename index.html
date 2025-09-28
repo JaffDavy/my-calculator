@@ -1,16 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/styles/styles.css">
-    <title>Document</title>
-</head>
-<body>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="display">0</div>
+      <div class="buttons">
+        <button class="btn function" data-action="backspace">
+          <svg
+            height="200"
+            width="200"
+            viewBox="0 0 21 21"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.328 15.5H15.5a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2H8.328a2 2 0 0 0-1.414.586L3.207 9.793a1 1 0 0 0 0 1.414l3.707 3.707a2 2 0 0 0 1.414.586zm1.172-3l4-4m-4 0l4 4"
+              fill="none"
+              stroke="currentColor"
+              strokelinecap="round"
+              strokelinejoin="round"
+            />
+          </svg>
+        </button>
 
+        <button class="btn function">AC</button>
+        <button class="btn function">%</button>
+        <button class="btn operator">/</button>
 
+        <button class="btn number">7</button>
+        <button class="btn number">8</button>
+        <button class="btn number">9</button>
+        <button class="btn operator">x</button>
+
+        <button class="btn number">4</button>
+        <button class="btn number">5</button>
+        <button class="btn number">6</button>
+        <button class="btn operator">-</button>
+
+        <button class="btn number">1</button>
+        <button class="btn number">2</button>
+        <button class="btn number">3</button>
+        <button class="btn operator">+</button>
+
+        <button class="btn number">+/-</button>
+        <button class="btn number zero">0</button>
+        <button class="btn number">.</button>
+        <button class="btn operator">=</button>
+      </div>
+    </div>
 
     <script src="./assets/scripts/scripts.js"></script>
-</body>
+  </body>
 </html>
