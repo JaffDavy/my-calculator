@@ -63,3 +63,40 @@ body {
   justify-content: start;
   padding-left: 25px;
 }
+
+/* Hover effect for all buttons */
+.btn:hover {
+    filter: brightness(120%); /* Makes the button brighter on hover */
+}
+/* More specific hover effects */
+.btn.function:hover {
+    background-color: #BDBDBD;
+}
+
+.btn.operator:hover {
+    background-color: #ffb84d;
+}
+
+.btn.number:hover {
+    background-color: #666666;
+}
+
+.btn {
+    font-size: 2.2rem;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.15s ease-in-out; /* Add this line */
+}
+
+/* Active (click) effect for all buttons */
+.btn:active {
+    transform: scale(0.95); /* Scales the button down slightly */
+    filter: brightness(80%); /* Makes the button darker on click */
+}
