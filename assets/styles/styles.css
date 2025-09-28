@@ -82,6 +82,6 @@ body {
 }
 
 .btn:active {
-  transform: scale(0.95); /* Scales the button down slightly */
-  filter: brightness(80%); /* Makes the button darker on click */
+  transform: scale(0.95);
+  filter: brightness(80%);
 }
